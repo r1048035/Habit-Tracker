@@ -51,6 +51,9 @@ body {
     cursor: pointer;
     border-radius: 20px;
     font-size: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .input {
