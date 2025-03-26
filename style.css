@@ -70,3 +70,15 @@ body {
     font-size: 100px;
     cursor: pointer;
 }
+
+.settings-knop {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 50px;
+    margin-top: 20px;
+}
