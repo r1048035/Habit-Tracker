@@ -62,3 +62,10 @@ body {
 .verborgen {
     display: none;
 }
+
+.emoji-knop {
+    background: none;
+    border: none;
+    font-size: 3rem;
+    cursor: pointer;
+}
