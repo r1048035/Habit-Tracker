@@ -16,6 +16,14 @@ if (selectedPerson && filledCircles.length < circles.length) {
     circles[filledCircles.length - 1].innerHTML = selectedPerson;
 }
 
+if (filledCircles.length === circles.length) {
+    filledCircles = [];
+    localStorage.setItem("filledCircles", JSON.stringify(filledCircles));
+    circles.forEach(circle => {
+        circle.textContent = "";
+    });
+}
+
 const storedName = localStorage.getItem("hondNaam") || "Spike";
 const headers = document.querySelectorAll(".header");
 headers.forEach(header => {
